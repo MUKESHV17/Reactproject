@@ -1,0 +1,91 @@
+/* General Styling for Case Studies */
+.case-studies {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .case-studies h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .intro-text {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 3rem;
+  }
+  
+  .case-study-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+  
+  .case-study {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 350px;
+    text-align: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .case-study:hover {
+    transform: translateY(-5px);
+  }
+  
+  .case-study-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .case-study-content {
+    padding: 1.5rem;
+  }
+  
+  .case-study h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .case-study p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .back-button {
+    margin-top: 3rem;
+    padding: 0.75rem 2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .case-study-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .case-study {
+      max-width: 100%;
+    }
+  }
+  

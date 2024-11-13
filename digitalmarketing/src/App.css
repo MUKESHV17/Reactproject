@@ -1,0 +1,257 @@
+
+/* Global styles */
+body {
+
+  margin: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-background {
+  background-image: url('https://wallpaperaccess.com/full/456257.jpg'); /* Replace with your Sign-Up page background image */
+  background-size: cover;
+  background-position: center;
+}
+
+.home-background {
+  background-image: url('https://wallpapercave.com/wp/wp3950117.jpg'); /* Replace with your Home page background image */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Other global styles... */
+/* Updated Hero Section */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-image: url('https://wallpapercave.com/wp/wp3950117.jpg'); /* Hero background image */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  flex-direction: column;
+  padding: 0 20px; /* Padding for small screens */
+}
+
+.hero h1 {
+  font-size: 3rem; /* Increase heading size */
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  padding: 15px 30px;
+  font-size: 1.25rem; /* Bigger button text */
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #218838;
+}
+
+/* Header styles */
+.header {
+  background-color: #090a0c;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+ 
+}
+
+.header .logo {
+  font-size: 24px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  color: #fff;
+  background-color: rgba(8, 7, 8, 0.8);
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(23, 22, 24, 0.9);
+}
+
+/* Dropdown menu styles */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: rgba(6, 5, 7, 0.8);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgba(26, 25, 27, 0.9);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0b0b0c;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.dropdown-content .button {
+  display: block;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* Services section styles */
+.services {
+  background-color: #f4f4f4;
+  padding: 60px 20px;
+}
+
+.services .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.service-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  background: #fff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: calc(33% - 20px);
+  text-align: center;
+}
+
+.service-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Testimonials section styles */
+.testimonials {
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.testimonials .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.testimonial-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.testimonial-item {
+  background: #f9f9f9;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  width: calc(33% - 20px);
+  text-align: center;
+}
+
+.testimonial-item p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.testimonial-item cite {
+  display: block;
+  font-size: 14px;
+  color: #777;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

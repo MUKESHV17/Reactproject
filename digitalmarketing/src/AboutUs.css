@@ -1,0 +1,74 @@
+/* Main container styling */
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+    gap: 2rem;
+  }
+  
+  .about-content {
+    max-width: 600px;
+  }
+  
+  .about-content h2 {
+    font-size: 2.5rem;
+    color: #222;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Styling for buttons */
+  .about-content .contact-button,
+  .about-content .back-button {
+    background-color: #212c37;
+    color: white;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1.5rem;
+  }
+  
+  .about-content .contact-button:hover,
+  .about-content .back-button:hover {
+    background-color: #262e36;
+  }
+  
+  .about-content .back-button {
+    margin-left: 1rem; /* Space between the buttons */
+  }
+  
+  .about-image img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .about-us {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-content {
+      max-width: 100%;
+    }
+  
+    .about-image {
+      margin-top: 2rem;
+    }
+  }
+  
